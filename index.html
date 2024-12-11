@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Minecraft</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;700&display=swap">
+  <style>
+    /* General Styling */
+   body {
+  font-family: 'Poppins', sans-serif;
+   color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+    header {
+      text-align: center;
+      
+    }
+    header h1 {
+      font-family: 'Press Start 2P', sans-serif;
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 3px 3px 0 #222;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #fdfdfd;
+      margin: 10px 0 0;
+    }
+   p {
+      line-height: 1.6;
+    }
+    .button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      font-size: 1.5em;
+      background-color: #62b52e;
+      color: #ffffff;
+      border: 3px solid #3e7a18;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      font-family: 'Press Start 2P', sans-serif;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.85);
+      display: flex;
+      justify-content: center;
+      padding: 14px 0;
+      font-size: 1.3em;
+    }
+    .navbar a {
+      margin: 0 15px;
+      color: #66bb6a;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 2px 2px 0 #000;
+    }
+    .navbar a:hover {
+      color: blue;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 1200px;
+    }
+    section h2 {
+      font-family: 'Press Start 2P', sans-serif;
+      color: #4caf50;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.2em;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .feature-box {
+      padding: 20px;
+      background: rgba(50, 50, 50, 0.9);
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .feature-box h3 {
+      color: #66bb6a;
+      margin-bottom: 10px;
+    }
+
+    /* Creators Section */
+    .creators {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .creator {
+      width: 300px;
+      padding: 20px;
+      background: rgba(50, 50, 50, 0.9);
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .creator img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .creator h3 {
+      color: #4caf50;
+      margin-bottom: 10px;
+    }
+
+    /* Trailer Section */
+    iframe, video {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    /* Feedback Form */
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    form input, form textarea {
+      padding: 10px;
+      font-size: 1em;
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fdfdfd;
+    }
+    form button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #66bb6a;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      color: #fff;
+    }
+    footer a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body background="C:\Users\DELL\OneDrive\Desktop\project\images\background.png">
+  <header><img src="C:\Users\DELL\OneDrive\Desktop\project\images\logo.png" alt="logo" class="section-image">
+    	
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#creators">Creators</a>
+    <a href="#trailer">Trailer</a>
+    <a href="#feedback">Feedback</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Minecraft</h2>
+    <p>
+      Minecraft is a sandbox game that has captured the imagination of millions worldwide.
+      Explore, build, and survive in an endless, procedurally generated world made entirely of blocks.
+    </p>
+    <a href="https://www.minecraft.net/en-us/get-minecraft" target="_blank" class="button">Download MINECRAFT Now!</a>
+  </section>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Creative Mode</h3>
+        <p>Unlimited resources for unlimited creativity.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Survival Mode</h3>
+        <p>Gather resources, build shelters, and survive mobs.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Multiplayer</h3>
+        <p>Connect with friends and play on global servers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="creators">
+    <h2>Top Minecraft Creators</h2>
+    <div class="creators">
+      <div class="creator">
+        <img src="C:\Users\DELL\OneDrive\Desktop\project\images\GamerFleet.png" alt="Creator 1">
+        <h3>Gamer Fleet</h3>
+        <p>Popular for exciting Minecraft streams. And also recognised as G.O.A.T in Minecraft and known for his Fleet SMP</p>
+      </div>
+      <div class="creator">
+        <img src="C:\Users\DELL\OneDrive\Desktop\project\images\Senpai Spider.png" alt="Creator 2">
+        <h3>Senpai Spider</h3>
+        <p>Known for Minecraft guides and challenges also known as PVP GOD</p>
+      </div>
+      <div class="creator">
+        <img src="C:\Users\DELL\OneDrive\Desktop\project\images\YesSmartyPie.png" alt="Creator 3">
+        <h3>Yes Smarty Pie</h3>
+        <p>Creates fun and engaging Minecraft content, Creator of famous SMP himlands, speed runner, CLUTCH GOD</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trailer">
+    <h2>THE OFFICIAL MINECRAFT<br><br> MOVIE TRAILER </h2>
+   <video controls>
+  <source src="C:\Users\DELL\OneDrive\Desktop\project\videos\A Minecraft Movie _ Official Trailer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  </section>
+<section id="nether">
+    <h2>The Nether</h2>
+    <p>
+      The Nether is a hellish dimension filled with lava, dangerous mobs, and unique resources like Netherite.
+      It's a place of danger and opportunity for brave adventurers.
+    </p>
+    <img src="C:\Users\DELL\OneDrive\Desktop\project\images\nether.webp" alt="Nether Image" class="section-image">
+  </section>
+
+  <section id="end">
+    <h2>The End</h2>
+    <p>
+      The End is a mysterious dimension where the mighty Ender Dragon awaits.
+      Travel here to gather rare resources like End Stone and fight one of Minecraft's ultimate bosses.
+    </p>
+    <img src="C:\Users\DELL\OneDrive\Desktop\project\images\download.jpeg" alt="End Image" class="section-image">
+  </section>
+
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Minecraft. All Rights Reserved. <a href="https://www.minecraft.net/">Official Website</a><br>made by <br>Rohan and Abhinab</p>
+  </footer>
+</body>
+</html>
